@@ -1,0 +1,49 @@
+            #x{
+				height:600px;
+				width:1000px;
+                background:url(http://www.hdwallpapersarena.com/wp-content/uploads/2013/03/Galaxy.jpg);
+                -webkit-background-size:cover; 
+                -moz-background-size:cover;
+                -o-background-size:cover;
+                background-size:cover;
+				}
+
+			.square{
+				position:absolute;
+				height:50px;
+				width:50px;
+				background-color:purple;
+							z-index:10;
+
+			}
+			.circle {
+   			 	position:absolute;
+				top:100px;
+				left:400px;
+				width:50px;
+    			height:50px;
+    			-webkit-border-radius: 100px;
+   				-moz-border-radius: 100px;
+   				border-radius: 100px; 
+   				background-color: green;
+			}
+
+			.triangle {
+			position:absolute;
+			top:125px;
+			left:200px;
+			width: 0; 
+			height: 0; 
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 50px solid blue;
+			z-index:10;
+			}
+#blackhole {
+                background-color:black;
+                width: 200px;
+                height: 200px;
+                top:225px;
+                left:400px;
+}
+       

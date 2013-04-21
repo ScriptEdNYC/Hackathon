@@ -1,0 +1,39 @@
+#container div{
+    width:100px;
+    height:100px;
+    float: left;
+    margin-left:10px;
+    margin-bottom:10px;
+    background:red;
+}
+
+div.round{
+    border-radius:100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    overflow:hidden;
+}
+#container div.distraction0 {
+    background: url(http://i.imgur.com/lQ9Ln.gif) no-repeat center center;
+}
+#container div.distraction1 {
+    background: url(http://i.imgur.com/vv49C.gif) no-repeat top left;
+}
+#container div.distraction2 {
+    background: url(http://i.imgur.com/vIXYF.gif) no-repeat center center;
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+#container {
+    margin: 20px auto;
+    width:550px;
+    height:440px;
+}
+body{
+    text-align: center;
+    background:black;
+}
